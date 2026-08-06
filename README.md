@@ -1,26 +1,108 @@
 # Security Controls
-- Different security controls and how they can be used to prevent any events from occurring
+- Anything that reduces the risk of a security threat or protects an organization's systems, data, or people
 
 ## Control Categories
 ### Technical controls: 
-Controls implemented using some type of technical system
-- Controls implemented using systems
-- Operating system controls
-- Firewalls, anti-virus
+Protecting systems using technology
+- E.g: Firewalls, anti-virus, Encryption
 
 ### Managerial controls: 
-Policies that explain to people the best way to manage their computers or data
+Policies created by management that explain to people the best way to manage their computers or data
 - Administrative controls associated with security design and implementation
-- Security policies, standard operating procedures
+- E.g: Security policies, standard operating procedures
 
 ### Operational controls: 
-Using people to set these controls
-- Controls implemented by people instead of systems
-- Security guards, awareness programs
+Using people to implement and set these controls instead of systems
+- E.g: Security guards, security awareness training, backup procedures
 
 ### Physical controls: 
-Controls that limits someone access to a building, a room, or a device
-- Limit physical access
-- Guard shack
-- Fences, locks
-- Badge readers
+Controls that limits someone's access to a building, a room, or a device
+- Locks
+- CCTV cameras
+- Security guards
+- Fences
+
+## Control types
+Control categories are who or what implements the control. Control types are what is the control's purpose.
+
+### Preventive control type
+Stops an attack before it happens
+E.g:
+- Firewall
+- Follow security policy
+- Guard shack checks all identification
+- Enable door locks (Physical devices preventing access to a room)
+
+### Deterrent control types
+This control type does not directly prevent access but it discourages an intrusion attempt. In simpler terms it makes the attacker think twice before attacking
+E.g:
+- Application splash screens that provides security information and restricts people who are not authorized to gain access in the system
+- Threat of demotion/dismissal
+- Front reception desk
+- Posted warning signs
+
+### Detective control types
+This control type detects that something has happened
+E.g:
+- Collect and review system logs
+- Review login reports
+- Regularly patrol the property
+- Enable motion detectors
+
+### Corrective control types
+Fixes the problem after an incident 
+E.g: 
+- Restoring from backups can mitigate a ransomware infection
+- Create policies for reporting security issues
+- Contact law enforcement to manage criminal activity
+- Use a fire extinguisher 
+
+### Compensating control types
+- Provides an alternative when the ideal control can't be used
+E.g:
+- Firewall blocks a specific application instead of patching the app
+- Implement a separation of duties
+- Require simultaneous guard duties
+- Generator used after power outage
+
+### Directive control type
+- Tells people what they should do 
+E.g:
+- Store all sensitive files in a protected folder
+- Create compliance policies and procedures
+- Train users on proper security policy
+- Post a sign for "Authorized Personnel Only"
+
+In case you are confused think of it like this:
+- Category = What kind of vehicle is it? (SUV, sedan, Truck)
+- Type: What is the vehicle used for (Transporting people, towing, racing)
+
+<img width="1109" height="429" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/29f00d11-927d-417c-bdcc-f17bb97311fc" />
+
+# The CIA Triad (Confidentiality, Integrity, Availability)
+- The most important security concept. These are the three goals of security 
+
+## Confidentiality 
+- Keep information secret so only authorized people can access it
+E.g: 
+- Passwords
+- Encryption
+- Access control
+- Example: Your bank account should only be visible to you and the bank, not everyone on the internet
+
+## Integrity
+- Ensure that information is accurate and has not been altered without authorization
+E.g:
+- Hashing: Map data of an arbitrary length to data of a fixed length
+- Digital signatures: Takes a hash and encrypts it with an asymmetric encryption algorithm
+- Certificates: To be able to identify devices or people
+- Non-repudiation: Provides proof of integrity
+- Example: If you transfer R500 to a friend, integrity ensures it doesn't get changed to R5,000 while being processed.
+
+## Availability
+- Make sure systems and data are available when authorized users need them
+E.g:
+- Backups
+- Redundant servers
+- Disaster recovery plans
+- Example: An online banking website should still work when you need to check your balance
