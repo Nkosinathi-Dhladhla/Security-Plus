@@ -108,3 +108,31 @@ E.g:
 - Redundant servers
 - Disaster recovery plans
 - Example: An online banking website should still work when you need to check your balance
+
+# Non-repudiation 
+
+## Proof of integrity 
+- Proof of integrity means that any data that we receive we can verify that it is exactly the same as the data we sent. Verifying that it has not been altered.
+- In cryptography we use a hash to protect this data. A hash is a short string of text that we can create based on data that is contained within the plane text.
+- If the data changes the hash changes
+
+## Proof of origin 
+- Using these hashes we can provide proof of integrity.
+- We can also add an additional level of integrity called proof of origin where we can verify the person that sent the data to us. Sometimes you will see this refer to as Authentication.
+
+# IAAA Framework (Identification, Authentication, Authorization, Accountability)
+### Identification
+- This is who you claim to be
+
+### Authentication
+- Proving that you are who you say you are
+
+### Authorization 
+- What access do you have based on your identification and authentication
+
+### Accounting
+- Login time, data, and logout time
+
+## Authorization Models
+- After the authentication process we authorize the device to have access to resources within our network using the authorization models
+- There is a big list of different authorization models 
