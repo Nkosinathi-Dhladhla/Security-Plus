@@ -1,6 +1,6 @@
 # Overview of security plus
 
-# Domain                                         Weight
+# Domain                                       # Weight
 1. General Security Concepts                     12%
 2. Threats, vulnerabilities, and Mitigations     22%
 3. Security Architecture                         18%
