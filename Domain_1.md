@@ -1,3 +1,5 @@
+# Domain 1: General Security Concepts (Weight 12%) 
+
 # Security Controls
 - Anything that reduces the risk of a security threat or protects an organization's systems, data, or people
 
