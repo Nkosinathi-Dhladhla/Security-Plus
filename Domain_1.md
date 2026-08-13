@@ -135,4 +135,52 @@ E.g:
 
 ## Authorization Models
 - After the authentication process we authorize the device to have access to resources within our network using the authorization models
-- There is a big list of different authorization models 
+- There is a big list of different authorization models
+
+# Gap Analysis 
+- Gap Analysis is used to compare where you are now (the current state) with where you want to be (the desired future state). The "gap" is the difference between those two states, and the analysis helps identify what needs to change to close it.
+
+# Zero Trust 
+- Zero trust is an approach to network security where you have to authenticate or prove yourself each time you want to gain access to a particular resource.
+
+## Ways to start implementing zero trust within a network
+### Planes of operation
+- Taking security devices and breaking them to smaller components
+- Data Plane:
+   - The Part of the device performing the security process
+   - Switch, router, firewall
+- Control Plane:
+   - This is where we manage all the actions occurring in the data plane
+   - This is where we configure policies and rules 
+   - Determines how networks should be forwarded
+ 
+# Physical Security
+## Barricade 
+- Prevents access to certain areas
+
+## Access control vestibules
+- This is where there is a room you must pass through to gain access to other accessibility
+
+## Fence
+- Build a perimeter ( Usually very obvious.)
+- Transparent/opague, Robust, Prevent climbing
+
+## Video surveillance
+- CCTV
+
+## Guards and access badges
+- Security guard
+
+# Deception and Disruption
+## Honeypot
+- A way to attract the attackers to your system and keep them involved in the system to see what type of security techniques they're trying to use
+
+## Honeynets
+- Consists of workstations, servers, and firewalls
+
+## Honeyfiles
+- Files that have fake information or they may be files that appear to be very important
+- If someone gains access to the files you may want to have alerts
+
+## Honeytokens 
+- Tracks the malicious actors
