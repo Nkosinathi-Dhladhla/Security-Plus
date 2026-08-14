@@ -172,15 +172,41 @@ E.g:
 - Security guard
 
 # Deception and Disruption
-## Honeypot
-- A way to attract the attackers to your system and keep them involved in the system to see what type of security techniques they're trying to use
+- Disruption is preventing or interrupting an attacker's ability to operate
+- Deception is used to mislead attackers or make them reveal themselves
 
-## Honeynets
+## Types/forms of Deception technology: Honey-Something deliberately made attractive to an attacker. 
+### Honeypot
+- A way to attract the attackers to your system and keep them involved in the system to see what type of security techniques they're trying to use
+- In simpler terms it is fake systems designed to attract attackers
+
+### Honeynet
+- A network containing multiple honeypots
 - Consists of workstations, servers, and firewalls
 
-## Honeyfiles
+### Honeyfile
+- A fake file designed to attract an attacker
 - Files that have fake information or they may be files that appear to be very important
 - If someone gains access to the files you may want to have alerts
 
-## Honeytokens 
+### Honeytokens 
+- A piece of information or credential that can alert defenders when its used
 - Tracks the malicious actors
+
+# Change Management
+- When making a change to an application or operating system the change is usually based in a single computer. But making a change within a company one single change could affect thousands of systems. So when making a change you need to go through a formal process to make sure that the change is going to work properly.
+- The company should set policies that employees must follow
+
+## In order to have a safe change process, the company must follow the following change approval process: 
+- Complete the request forms
+- Determine the purpose of the change
+- Identify the scope of the change
+- Schedule a date and time of the change
+- Determine affected systems and the impact
+- Analyze the risk associated with the change
+- Get approval from the change control board
+- Get end-user acceptance after the change is complete
+
+# Technical change management 
+- Technical change management refers to the implementation of the change management discussed in the previous points
+- Change management is often concerned with what needs to change and technical change is who will implement the change management
