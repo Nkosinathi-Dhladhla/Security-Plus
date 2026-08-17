@@ -210,3 +210,23 @@ E.g:
 # Technical change management 
 - Technical change management refers to the implementation of the change management discussed in the previous points
 - Change management is often concerned with what needs to change and technical change is who will implement the change management
+
+# Public Key Infrastructure (PKI)
+- Refers to policies, procedures, hardware, software, people that is responsible for creating, distributing, managing, storing, revoking, and performing other processes associated with digital certificates
+
+## Symmetric encryption
+- Means that anytime you decrypt something you use the same key that you used to encrypt that information (A single, shared key)
+
+## Asymmetric encryption
+- Means that you use two different keys to encrypt and decrypt
+- when creating these keys you will assign one of them as the private key and the other as a public key
+- Private key:
+  - The private key is the one that one person/device has access to
+- Public key
+  - The public key is the one that anyone has access to. Anyone can see or use this key
+ 
+## The key pair
+- Building both the public and the private key at the same time
+
+## Key escrow
+- When dealing with a single person who happens to have their own public and private key pair, it is up to the individual to manage those
