@@ -230,3 +230,26 @@ E.g:
 
 ## Key escrow
 - When dealing with a single person who happens to have their own public and private key pair, it is up to the individual to manage those
+
+# Encrypting Data 
+- Encryption is very important for protecting data on storage devices.
+
+## Database encryption 
+- It is important not to encrypt everything in the database only sensitive content
+
+## Transport encryption
+- Protect data traversing the network
+- Encryption in the application
+- VPN (Encrypts all data transmitted over the network)
+
+## Encryption algorithms
+- The formula used to encrypt and decrypt
+- It is important for both parties to use the same encryption algorithm
+
+## Cryptographic keys
+- You have to have a proper key in encryption and decryption
+- That key is what determines the output
+
+## Key lengths
+- Larger keys tend to be more secure
+- 128-bit or larger symmetric keys are commons
