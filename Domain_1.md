@@ -86,6 +86,7 @@ In case you are confused think of it like this:
 
 ## Confidentiality 
 - Keep information secret so only authorized people can access it
+- Certain information should only be known to certain people
 E.g: 
 - Passwords
 - Encryption
