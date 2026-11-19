@@ -116,6 +116,7 @@ E.g:
 - Proof of integrity means that any data that we receive we can verify that it is exactly the same as the data we sent. Verifying that it has not been altered.
 - In cryptography we use a hash to protect this data. A hash is a short string of text that we can create based on data that is contained within the plane text.
 - If the data changes the hash changes
+- If the hash is different then the data integrity has been compromised.
 
 ## Proof of origin 
 - Using these hashes we can provide proof of integrity.
