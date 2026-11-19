@@ -111,6 +111,7 @@ E.g:
 - Example: An online banking website should still work when you need to check your balance
 
 # Non-repudiation 
+- Non-repudiation provides proof that a particular person performed an action.
 
 ## Proof of integrity 
 - Proof of integrity means that any data that we receive we can verify that it is exactly the same as the data we sent. Verifying that it has not been altered.
@@ -121,18 +122,41 @@ E.g:
 ## Proof of origin 
 - Using these hashes we can provide proof of integrity.
 - We can also add an additional level of integrity called proof of origin where we can verify the person that sent the data to us. Sometimes you will see this refer to as Authentication.
+- Provide non-repudiation (Make sure that the data that was sent is not fake, in other words its making sure that the data comes from the condescending party).
+- Sign with the private key that is only known to the person who is sending the data.
+- A public key is used to verify the private key. This verifies that the information received is not only the same as what was sent but we know that it had to be sent by the person who provided the digital signature.
+
+### Creating a digital signature:
+- Think of a conversation between Alice and Bob
+  - Alice sends a message to Bob saying: "you're hired Bob"
+  - The first thing that happens when a message is sent, a Hash of the message is created
+  - That Hash is encrypted with a private key to verify that it truly came from Alice
+  - That encrypted hash is sent along with the plain text and digital signature so that Bob receives the message.
+ 
+### Verifying the digital signature
+- We will continue the same example.
+  - Bob receives that message with the digital signature
+  - Bob will use Alice's public key to examine the digital signature, and decrypt it using that public key.
+  - Once the decryption has taken place, we are gonna have the original hash created from the message.
+  - Bob wants to see if the Hash that was in that digital signature matches the hash of what he received.
+  - So he is gonna perform the same hashing function that Alice originally performed.
+  - Bob will compare to see if the hash that included the digital signature is the same as the hash that he created from the plain text.
+  - If it matches we will know that the message had to be sent from Alice. 
 
 # IAAA Framework (Identification, Authentication, Authorization, Accountability)
 ### Identification
 - This is who you claim to be
+- Usually your username
 
 ### Authentication
 - Proving that you are who you say you are
+- Password and other authentication factors
 
 ### Authorization 
 - What access do you have based on your identification and authentication
 
 ### Accounting
+- A log of exactly what happened 
 - Login time, data, and logout time
 
 ## Authorization Models
