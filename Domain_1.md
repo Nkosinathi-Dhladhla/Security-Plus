@@ -166,6 +166,12 @@ E.g:
 # Gap Analysis 
 - Gap Analysis is used to compare where you are now (the current state) with where you want to be (the desired future state). The "gap" is the difference between those two states, and the analysis helps identify what needs to change to close it.
 
+## Gap analysis process:
+- Choosing a framework (Work towards a known baseline by determining the end goal)
+- Evaluate people and processes.
+- Compare and contrast the existing systems running
+- Detail a baseline stating where we are and where we would like to be 
+
 # Zero Trust 
 - Zero trust is an approach to network security where you have to authenticate or prove yourself each time you want to gain access to a particular resource.
 
